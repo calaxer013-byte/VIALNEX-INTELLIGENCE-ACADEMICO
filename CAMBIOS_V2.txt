@@ -1,0 +1,13 @@
+VIALNEX INTELLIGENCE 2.0 — Cambios de esta entrega
+
+1. Se conservó la aplicación existente y su base SQLite.
+2. Se excluyó el entorno virtual del ZIP para reducir tamaño y evitar rutas locales.
+3. Se añadió actualización de inspecciones mediante PUT /api/inspections/<id>.
+4. Se añadió comparación de Regresión Lineal y Random Forest mediante /api/model-comparison.
+5. Se añadió /api/health para comprobar servidor y base de datos.
+6. La base se inicializa también al importar la aplicación, facilitando Flask CLI/WSGI.
+7. El modo debug queda desactivado por defecto.
+8. Se documentaron las funciones reales y las que siguen pendientes para no presentar módulos no implementados como terminados.
+
+Pendiente para próximas iteraciones: interfaz de edición, georreferenciación real,
+PDF/Excel, autenticación/roles, mantenimiento, visión artificial, asistente y PWA.
